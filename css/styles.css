@@ -205,7 +205,6 @@ margin-right: auto;
  
   /* 1 Hero */
   .hero-section {
-      background-color: var(--title-text-color);
       height: 600px;
   }
  
