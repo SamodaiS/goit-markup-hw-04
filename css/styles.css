@@ -76,7 +76,7 @@
  
 
 
-  /* heder container */
+  /*=========================== heder container =======================*/
   .section-header{
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -114,7 +114,7 @@ gap: 40px;
 
 .header-link {
   position: relative; 
-  color: #404bbf; 
+  color: #404bbf;  
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
@@ -136,7 +136,7 @@ gap: 40px;
    
 
  
-   /* HEADER*/
+   /*********************************** HEADER *********************************/
     .header-logo {
      padding-top: 24px;
      padding-bottom: 24px;
@@ -316,7 +316,7 @@ background-color: #F4F4FD;
     letter-spacing: 0.02em;
   }
 
-  /* 3 person container */
+  /*===================3 person container=====================*/
   
   .person-section {
 padding: 120px 0;
@@ -382,16 +382,18 @@ padding: 120px 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
-.social-list-link-person:hover,
-.social-list-lin-person:focus {
-  background-color: #404bbf;  
+.social-list-link-person:hover {
+  background-color: #404bbf;
+}
+.social-list-link-person:focus {
+  background-color: #404bbf;
 }
 
 .social-list-icon-person {
   fill: #F4F4FD;
 }
 
-  /* 3 Person */
+  /************************* 3 Person ***********************/
   .person-section {
   background-color: var(--secondary-bg-color); 
   }
@@ -425,7 +427,7 @@ padding: 120px 0;
     text-align: center;
   }
 
- /* 4 container-portfolio */
+ /*============================ 4 container-portfolio ===============================*/
 .portfolio-section {
 padding-top: 120px;
 padding-bottom: 120px;
@@ -441,12 +443,16 @@ padding-bottom: 120px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  
 }
  
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-  
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+  rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .portfolio-info {
@@ -465,7 +471,28 @@ padding-bottom: 120px;
   height: auto;
 }
 
-  /*  4 Portfolio */
+.portfolio-img-deco {
+  position: relative;
+  overflow: hidden; 
+}
+
+.portfolio-img-paragraph {
+  position: absolute; 
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%; 
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+
+
+}
+  /***********************************  4 Portfolio ***********************************/
   .portfolio-section {
     background-color: var(--primari-white-color); 
   }
@@ -493,7 +520,12 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;   
   }
 
-/* footer-container */
+  .portfolio-text:hover {
+    transform: translateY(0%);
+  }
+  
+
+/*================================ footer-container============================ */
 
  .section-footer {
   padding: 100px 0;
@@ -558,7 +590,7 @@ align-items: baseline;
 }
 
 
-  /* Footer */
+  /***************************** Footer *******************************/
   .section-footer {
     background-color: var(--title-text-color);
  height:312px;
