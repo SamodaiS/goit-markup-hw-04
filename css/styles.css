@@ -363,7 +363,6 @@ padding: 120px 0;
  .social-list-item-person {
   width: 40px;
   height: 40px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
  }
 
  .social-list-link-person {
@@ -374,12 +373,13 @@ padding: 120px 0;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color:var( --lodo-accent); 
+  background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .social-list-link-person:hover,
 .social-list-lin-person:focus {
-  background-color: #404bbf; 
+  background-color: #31d0aa; 
 }
 
 .social-list-icon-person {
