@@ -113,6 +113,7 @@ gap: 40px;
 }
 
 .header-link {
+  position: relative; 
   color: #404bbf; 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
@@ -224,11 +225,11 @@ margin-right: auto;
 }
  
   /* 1 Hero */
-  /*.hero-section {
+  .hero-section {
       background-color: var(--title-text-color);
       height: 600px;
       max-width: 1440px; 
-  }*/
+  }
  
   .hero-title {
     font-weight: 700;
@@ -277,6 +278,10 @@ border-radius: 4px;
 border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 background-color: #F4F4FD;
 }
+
+
+
+
 
 .person-icon {
   margin-top: 8px;
@@ -373,13 +378,13 @@ padding: 120px 0;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #404bbf;
+  background-color:  #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .social-list-link-person:hover,
 .social-list-lin-person:focus {
-  background-color: #31d0aa; 
+  background-color: #404bbf;  
 }
 
 .social-list-icon-person {
