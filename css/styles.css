@@ -47,7 +47,6 @@
  }
 
  section {
-
   padding-top: 120px;
   padding-bottom: 120px;
  }
@@ -99,7 +98,6 @@
     align-items: center; 
     justify-content: space-between; 
 }
-
 
   .nav-header { 
    display: flex; 
@@ -293,9 +291,7 @@ background-color: #F4F4FD;
 
 .benefit-list {
   display: flex;
-column-gap: 24px;
-  
-  
+column-gap: 24px;  
 } 
  
 .benefit-item {
@@ -387,6 +383,7 @@ column-gap: 24px;
 .social-list-link-person:hover {
   background-color: #404bbf;
 }
+
 .social-list-link-person:focus {
   background-color: #404bbf;
 }
@@ -394,6 +391,7 @@ column-gap: 24px;
 .social-list-icon-person {
   fill: #F4F4FD;
 }
+
 
   /************************* 3 Person ***********************/
   .person-section {
@@ -493,10 +491,13 @@ column-gap: 24px;
 .portfolio-item:hover .overlay{
   transform: translateY(0%);
 }
+
+
   /***********************************  4 Portfolio ***********************************/
   .portfolio-section {
     background-color: var(--primari-white-color); 
   }
+
   .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -549,7 +550,6 @@ align-items: baseline;
 
 .footer-text {
   width: 264px;
- 
  }
 
  .social-text-footer {
