@@ -49,6 +49,8 @@
  section {
   margin-bottom: 0;
   margin-top: 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
  }
 
 .list {
@@ -197,7 +199,6 @@ gap: 40px;
 
 .hero-section {
   width: 1440px;
-  margin-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -306,7 +307,6 @@ column-gap: 24px;
   .benefit-section {
      width: 1440px;
     margin: 0 auto;
-    margin-bottom: 120px;
   }
   
   
@@ -330,10 +330,6 @@ column-gap: 24px;
 
   /*===================3 person container=====================*/
   
-  .person-section {
-padding: 120px 0;
-  }
-
   .person-title {
     margin-bottom: 72px;
     align-items: center;
@@ -440,10 +436,6 @@ padding: 120px 0;
   }
 
  /*============================ 4 container-portfolio ===============================*/
-.portfolio-section {
-padding-top: 120px;
-padding-bottom: 120px;
-}
 
 .portfolio-title {
   margin-bottom: 72px;
