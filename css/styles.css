@@ -46,6 +46,11 @@
  margin-bottom: 0;
  }
 
+ section {
+  margin-bottom: 0;
+  margin-top: 0;
+ }
+
 .list {
   list-style-type: none;
 }
@@ -120,7 +125,7 @@ gap: 40px;
   left: 0;
   bottom: -1px;
   height: 4px;
-  width: 48px;
+  width: calc(100%);
   background-color: #404bbf;
   border-radius: 2px;
 }
@@ -192,6 +197,7 @@ gap: 40px;
 
 .hero-section {
   width: 1440px;
+  margin-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -261,6 +267,7 @@ margin-right: auto;
 .benefits-svg-list {
   display: flex; 
   gap: 24px;
+  margin-bottom: 8px;
 }
 
 .benefits-svg { 
@@ -272,7 +279,7 @@ height: 64px;
 
 width: 264px;
 height: 112px;
-margin-top: 120px;
+margin-top: 0;
 margin-bottom: 8px;
 flex-shrink: 0;
 border-radius: 4px;
@@ -280,19 +287,15 @@ border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 background-color: #F4F4FD;
 }
 
-
-
-
-
 .person-icon {
   margin-top: 8px;
 }
 
 .benefit-list {
   display: flex;
-  gap: 24px;
-  margin-bottom: 120px;
-  margin-top: 8px;
+column-gap: 24px;
+  
+  
 } 
  
 .benefit-item {
@@ -300,11 +303,19 @@ background-color: #F4F4FD;
 }
 
   /***************************** 2 Benefit ****************************/
+  .benefit-section {
+     width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+  }
+  
+  
   .container-benefit {
     height: 344px;
   }
  
   .benefit-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -351,6 +362,7 @@ padding: 120px 0;
 
   .person-job {
     text-align: center;
+    margin-bottom: 8px;
   }
 
 .person-img {
@@ -361,7 +373,6 @@ padding: 120px 0;
 
  .social-list-person {
   display: flex;
-  margin-top: 8px;
   gap: 24px;
   justify-content: center;
  }
@@ -447,7 +458,6 @@ padding-bottom: 120px;
 }
  
 .portfolio-item {
-  position: relative;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -494,7 +504,7 @@ padding-bottom: 120px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.portfolio-img-deco:hover .overlay{
+.portfolio-item:hover .overlay{
   transform: translateY(0%);
 }
   /***********************************  4 Portfolio ***********************************/
@@ -553,12 +563,11 @@ align-items: baseline;
 
 .footer-text {
   width: 264px;
-  margin-bottom: 100px;
+ 
  }
 
  .social-text-footer {
   margin-bottom: 16px;
-  display: inline-block;
  }
 
  .social-list {
